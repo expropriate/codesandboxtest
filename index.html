@@ -4,12 +4,19 @@
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
   </head>
-
   <body>
-    <div id="app"></div>
-    <p>rurutxie</p>
-    <p>
-      <script src="src/index.js"></script>
-    </p>
+    <div class="input-area">
+      <input id="add-text" placeholder=" TODO を入力" />
+      <button id="add-buton">追加</button>
+    </div>
+    <div class="incomplete-area">
+      <p class="title">未完了のTODO</p>
+      <ul id="list1"></ul>
+    </div>
+    <div class="complete-area">
+      <p class="title">完了したTODO</p>
+      <ul id="list2"></ul>
+    </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
